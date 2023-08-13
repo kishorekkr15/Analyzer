@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.sencontainer {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(214, 240, 239, 0.306) 0%, rgba(103, 194, 210, 0.608) 97%);
+    height: 100vh;
+    overflow: scroll;
+}
+
+.indSentence {
+    align-self: center;
+    text-align: justify;
+    margin-top: 10vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.group {
+    display: flex;
+    padding: px 100px;
+    margin-top: 5vh;
+    border: 3px solid black;
+    margin: 5vw 4vw;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.words {
+    width: 30vw;
+    list-style: none;
+    text-align: center;
+    font-size: 4vh;
+    padding: 30px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-right: 3px solid black;
+    color: rgb(87, 0, 0);
+
+}
+
+.words>p>li:hover {
+    background-color: chartreuse;
+}
+
+.meanings {
+    width: 70vw;
+    padding: 30px;
+    margin-left: 6vw;
+}
+.meanings>h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: gold;
+    background-color: gray;
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.define{
+    margin-left: 2vw;
+    list-style: square;
+    font-size: 20px;
+}
+.noun{
+    background-color: rgba(242, 179, 179, 0.621);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.example>span{
+    color:white;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 0px 10px;
+    margin-left: 30px;
+
+}
+
+.syn>h5{
+    background-color: aquamarine;
+    text-align: center;
+}
+.syn>span{
+    padding: 7px;   
+}
+
